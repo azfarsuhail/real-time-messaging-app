@@ -35,7 +35,7 @@ A modern, responsive real-time chat application built with Node.js, Express, Soc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/real-time-chat.git
+   git clone https://github.com/azfarsuhail/real-time-chat.git
    cd real-time-chat
    ```
 
