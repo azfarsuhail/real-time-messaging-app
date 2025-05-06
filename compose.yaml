@@ -2,7 +2,11 @@ version: "3.8"
 
 services:
   app:
-    image: real-time-messaging-app:1.0
+    image: azfarsuhail/real-time-messaging-app:latest
+    container_name: real-time-messaging-app
+    restart: always
+    networks:
+      - messaging-network
     build:
       context: .
       dockerfile: Dockerfile
